@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+
+	<div id = "gameContainer">
+		<div id = "titleContainer">
+			Greek Mythology Jeopardy</br>
+		</div>
+		<div id = "tileContainer">
+			<div class = "column" id = "descriptors">
+				Gods
+				<div class = "tile" value = "100" id = "tile11">100</div>
+				<div class = "tile margined" value = "200" id = "tile12">200</div>
+				<div class = "tile margined" value = "300" id = "tile13">300</div>
+				<div class = "tile margined" value = "400" id = "tile14">400</div>
+				<div class = "tile margined" value = "500" id = "tile15">500</div>
+				<div class = "tile margined" value = "600" id = "tile16">600</div>
+			</div>
+			<div class = "column" id = "godesses">
+				Godesses
+				<div class = "tile" value = "100" id = "tile21">100</div>
+				<div class = "tile margined" value = "200" id = "tile22">200</div>
+				<div class = "tile margined" value = "300" id = "tile23">300</div>
+				<div class = "tile margined" value = "400" id = "tile24">400</div>
+				<div class = "tile margined" value = "500" id = "tile25">500</div>
+				<div class = "tile margined" value = "600" id = "tile26">600</div>
+			</div>
+			<div class = "column" id = "heroes">
+				Heroes
+				<div class = "tile" value = "100" id = "tile31">100</div>
+				<div class = "tile margined" value = "200" id = "tile32">200</div>
+				<div class = "tile margined" value = "300" id = "tile33">300</div>
+				<div class = "tile margined" value = "400" id = "tile34">400</div>
+				<div class = "tile margined" value = "500" id = "tile35">500</div>
+				<div class = "tile margined" value = "600" id = "tile36">600</div>
+			</div>
+			<div class = "column" id = "creature">
+				Creatures
+				<div class = "tile" value = "100" id = "tile41">100</div>
+				<div class = "tile margined" value = "200" id = "tile42">200</div>
+				<div class = "tile margined" value = "300" id = "tile43">300</div>
+				<div class = "tile margined" value = "400" id = "tile44">400</div>
+				<div class = "tile margined" value = "500" id = "tile45">500</div>
+				<div class = "tile margined" value = "600" id = "tile46">600</div>
+			</div>
+		</div>
+		<div id = "gameCenter">
+			<div id = "instructions">
+				Click team for manually chosen questions and split score or
+				automatic for randomly chosen questions and single score. When question appears 
+				user(s) have 20 seconds to answer.
+			</div>
+			<div id = "optionContainer">
+				<div class = "button" id = "user">Team</div>
+				<div class = "button" id = "auto">Auto</div>
+			</div>
+		</div>
+		<div class = "scoreContainer1" id = "total">Total Score: 0</div>
+		<div class = "scoreContainer1" id = "team1">Team 1: 0</div>
+		<div class = "scoreContainer1" id = "team2">Team 2: 0</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./assets/javascript/app.js"></script>
+</body>
+</html>

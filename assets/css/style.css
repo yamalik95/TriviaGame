@@ -1,0 +1,116 @@
+body {
+	font-family: Copperplate;
+}
+
+#gameContainer {
+	height: 100%;
+	width: 100%;
+}
+
+#gameContainer::after {
+  content: "";
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+#titleContainer {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bolder;
+	color: white; 
+}
+
+#tileContainer {
+	height: 370px;
+	width: 900px;
+	margin: auto;
+}
+
+.column {
+	float: left;
+	height: 370px;
+	width: 225px;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.tile {
+	height: 40px;
+	width: 140px;
+	margin: auto;
+	background-color: black;
+	text-align: center;
+	cursor: default;
+}
+
+.margined {
+	margin-top: 10px;
+}
+
+#gameCenter {
+	width: 920px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-weight: bolder;
+	margin-top: -20px;
+}
+
+#optionContainer {
+	width: 950px;
+	height: 100px;
+	margin: auto;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 10px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.scoreContainer1 {
+	width: 800px;
+	position: absolute;
+	position: 0;
+	color: white;
+	font-size: 30px;
+	margin-top: 15px;
+	display: none;
+}
+
+#total {
+	color: gold;
+}
+
+#team1 {
+	margin-top: 15px;
+}
+
+#team2 {
+	margin-left: 200px;
+	margin-top: 15px
+}
+
+
+
